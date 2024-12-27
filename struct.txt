@@ -1,0 +1,35 @@
+.vcs/
+├── store/
+│   ├── blobs/
+│   ├── trees/
+│   ├── commits/
+│   ├── pack/
+├── staging_area/
+│   └── staged_files.json
+├── metadata/
+│   ├── branches/
+│   ├── tags/
+│   ├── HEAD
+├── history/
+│   ├── commits.log
+│   ├── merges.log
+├── temp/
+│   ├── merge_state.json
+│   ├── stash/
+├── remotes/
+│   ├── origin/
+│   ├── upstream/
+├── scripts/
+│   ├── pre_commit
+│   ├── post_merge
+├── conflicts/
+│   ├── file_a.conflict
+├── undo/
+│   ├── stage_undo.log
+├── stats/
+│   ├── contributors.json
+│   ├── file_stats.json
+├── docs/
+│   ├── readme.md
+│   ├── vcs_internals.md
+├── config.json
